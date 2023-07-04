@@ -1,0 +1,1 @@
+SELECT * FROM pedro_health.intake;
