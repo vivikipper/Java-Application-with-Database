@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.StackedBarChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaa1test2.Controller">
+   <children>
+      <StackedBarChart fx:id="stackedBarChart" layoutX="35.0" layoutY="14.0" prefHeight="334.0" prefWidth="518.0" stylesheets="@style.css" title="Water intake">
+        <xAxis>
+          <CategoryAxis label="days" side="BOTTOM" fx:id="xAxis" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="yAxis" label="Glass_of_water" side="LEFT" upperBound="9.0" />
+        </yAxis>
+      </StackedBarChart>
+      <Button fx:id="tableView" contentDisplay="CENTER" layoutX="258.0" layoutY="352.0" mnemonicParsing="false" onAction="#changeForTableview" prefHeight="34.0" prefWidth="85.0" text="Tableview" />
+   </children>
+</AnchorPane>
